@@ -12,4 +12,3 @@
 
       - name: Install Docker
         apt : name=docker.io update_cache=yes state=latest
-        notify: start Docker
